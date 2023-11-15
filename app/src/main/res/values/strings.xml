@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MiBarrio</string>
+    <string-array name="Instalaciones_Categorias">
+        <item>Calles</item>
+        <item>Plazas</item>
+        <item>Oficinas Municipales</item>
+        <item>Escuelas Primarias</item>
+        <item>Escuelas Secundarias</item>
+        <item>Comedores Escolares</item>
+        <item>Museos</item>
+        <item>Camping Municipales</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="HoraPicker">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="MinutoPicker">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+    </string-array>
+    <string-array name="AMPMPicker">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

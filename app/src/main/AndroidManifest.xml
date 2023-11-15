@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mibarrio">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.MiBarrio">
+        <activity
+            android:name=".actividades.denuncias.Denuncias_Nueva"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.denuncias.Denuncias_Detalle"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.denuncias.Denuncias_Mensaje"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.denuncias.Denuncias_Filtro"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.denuncias.Denuncias_Listado"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.reclamos.Reclamos_Nuevo"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.reclamos.Reclamo_Detalle"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.reclamos.Reclamos_Mensaje"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.reclamos.Reclamos_Filtro"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.reclamos.Reclamos_Listado"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.instalaciones.Instalaciones_Detalle"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.instalaciones.Instalaciones_Filtro"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.instalaciones.Instalaciones_Listado"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.publicaciones.Publicaciones_Filtro"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.publicaciones.Publicaciones_Mensaje"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.publicaciones.Publicaciones_Nuevo"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.publicaciones.Publicaciones_Detalle"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.publicaciones.Publicaciones_Listado"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.inicio.Inicio_Mensaje"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.inicio.Inicio_Registracion"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.inicio.Inicio_Sesion"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.inicio.Inicio_Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
